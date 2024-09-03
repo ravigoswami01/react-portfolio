@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    .borderTop{
+        @apply border-t-[1px] border-t-zinc-800;
+    }
+    .borderBottom{
+        @apply border-b-[1px] border-t-zinc-800;
+    }
+    .borderRight{
+        @apply border-r-[1px] border-t-zinc-900;
+    }
+    .borderLeft{
+        @apply border-l-[1px] border-t-zinc-800;
+    }
+    .borderAll {
+        @apply border-[1px] border-t-zinc-800;
+    }
+
+    /*===========================about me se===========*/
+    .aboutRightLi{
+        @apply text-zinc-400 text-base font-normal flex justify-between items-center border-b-[1px]
+        border-gray-800 py-2;
+    }
+    .aboutRightLiSpan{
+        @apply bg-designColor text-black uppercase px-4 py-[px] rounded-md;
+    }
+}
